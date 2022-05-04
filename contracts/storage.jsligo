@@ -4,6 +4,7 @@
 #import "conditions.jsligo" "Conditions"
 
 export type t = {
+    metadata: big_map<string, bytes>,
     next_session : nat,
     sessions : map<nat, Session.t>
 };
